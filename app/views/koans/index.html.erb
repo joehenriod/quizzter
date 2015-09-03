@@ -1,10 +1,39 @@
-<h1>Welcome to my Awesome Web App</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to my Awesome Quiz App</title>
 
-<h2> <a href="https://github.com/joehenriod/quizzter"> GitHub Repo </a> <h2>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<h2> <a href="https://quizzter.herokuapp.com/"> Check out my Heroku Name! </a> <h2>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  	<header>
+   
+    <div class="col-xs-12">
+    	<h2>Quiz 1 </h2>
+     <a href="https://github.com/joehenriod/quizzter"> GitHub Repo </a> ||
+     <a href="https://quizzter.herokuapp.com/"> Check out Quizzter on Heroku! </a> 
+
+    </div>
+  </header>
+
+
 
 
 <h1><%= @koan.saying %></h1>
-<h2>- <%= @koan.author %></h2>
+<h3>- <%= @koan.author %></h2>
 
+  </body>
+</html>
